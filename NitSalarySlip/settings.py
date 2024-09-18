@@ -123,6 +123,7 @@ STATICFILES_DIRS = (
     # location of your application, should not be public web accessible 
     # '/static',
 )
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 MEDIA_URL = '/media/'
 MEDIAFILES_DIRS = (
